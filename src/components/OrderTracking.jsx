@@ -36,7 +36,7 @@ function OrderTracking({ onSectionChange }) {
       'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=100&h=100&fit=crop&round=16', // Pizza
       'https://images.unsplash.com/photo-1626074961196-c8c9ba5d031e?w=100&h=100&fit=crop&round=16', // Bread
       'https://images.unsplash.com/photo-1572490478982-22f6b8d3d1e1?w=100&h=100&fit=crop&round=16', // Coffee
-      'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=100&h=100&fit=crop&round=16'  // Burger
+      'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=100&h=100&fit=crop&round=16'  // Burger aur bhi add kar lunga baad me
     ];
     return images[index % images.length];
   };
