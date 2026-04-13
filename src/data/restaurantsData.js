@@ -1,0 +1,222 @@
+export const restaurants = [
+  {
+    id: 1,
+    name: "Pizza Palace",
+    rating: 4.5,
+    deliveryTime: "30-40 mins",
+    category: "Pizza",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop",
+    items: [
+      { id: 1, name: "Classic Pizza", price: 199, category: "Pizza", image: "https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg" },
+      { id: 2, name: "Margherita", price: 249, category: "Pizza", image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=200&h=200&fit=crop" },
+      { id: 3, name: "Pepperoni", price: 179, category: "Pizza", image: "https://tse4.mm.bing.net/th/id/OIP.w4OKKbZh44LInWGutfdqGAHaHa?pid=Api&P=0&h=220" },
+      { id: 4, name: "Four Cheese", price: 199, category: "Pizza", image: "https://tse1.mm.bing.net/th/id/OIP.Ox8Glyg3SzMCPMSGt1rFEwHaHa?pid=Api&P=0&h=220" },
+      { id: 5, name: "BBQ Chicken", price: 249, category: "Pizza", image: "https://tse2.mm.bing.net/th/id/OIP.86Y-7vPQxOCS0c2jLGJJQAHaHa?pid=Api&P=0&h=220" },
+      { id: 6, name: "Meat Lovers", price: 179, category: "Pizza", image: "https://tse3.mm.bing.net/th/id/OIP.nWZalnMGl1fkxFfYKHIVMQHaEc?pid=Api&P=0&h=220" },
+    ]
+  },
+  {
+    id: 2,
+    name: "Burger House",
+    rating: 4.3,
+    deliveryTime: "25-35 mins",
+    category: "Burger",
+    image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=300&fit=crop",
+    items: [
+      { id: 7, name: "Classic Burger", price: 199, category: "Burger", image: "https://tse3.mm.bing.net/th/id/OIP._KwhtOfk9wumN0Z0T4B1XgHaEK?pid=Api&P=0&h=220" },
+       { id: 8, name: "Classic Burger", price: 89, category: "Burger", image:  "https://tse2.mm.bing.net/th/id/OIP.m-VDj7JJcLRJdpdEb_aJmQHaHa?pid=Api&P=0&h=220"},
+        { id: 9, name: "Onion Burger", price: 299, category: "Burger", image:  "https://cdn.tasteatlas.com/images/dishes/33b646f71ceb49ffb43933f95729528d.jpg?w=1476&h=830"},
+         { id: 10, name: "Juicy Lucy", price: 99, category: "Burger", image:  "https://cdn.tasteatlas.com/images/dishes/3bbd4cfff9f144899e8474e1af21b7c9.jpg?w=1476&h=830"},
+          { id: 11, name: "Bison Burger", price: 99, category: "Burger", image:  "https://cdn.tasteatlas.com/images/dishes/90f847e06a0c44d1b29ee820eb796ccc.jpg?w=1476&h=830"},
+           { id: 12, name: "Elk Burger", price: 399, category: "Burger", image:  "https://cdn.tasteatlas.com/images/dishes/7272c71d066c4e9faa6b184ccefc9001.jpg?w=1476&h=830"},
+            { id: 13, name: "Ròujiāmó (Chinese hamburger)", price: 299, category: "Burger", image:  "https://cdn.tasteatlas.com/images/dishes/6bc0cd0130354b20b3e2f583f9dec184.jpg?w=1476&h=830"},
+             { id: 14, name: "Green Chile Cheeseburger", price: 199, category: "Burger", image:  "https://cdn.tasteatlas.com/images/dishes/8c6c8b83b0a846668dfbc6b233779a21.jpg?w=1476&h=830"},
+    ]
+  },
+  {
+    id: 3,
+    name: "Chinese Wok",
+    rating: 4.6,
+    deliveryTime: "35-45 mins",
+    category: "Chinese",
+   image:"https://tse3.mm.bing.net/th/id/OIP.3DZfvfWx9-MA6qz2a6UBrgHaF7?pid=Api&P=0&h=220",
+    items: [
+      { id: 15, name: "Fried Rice", price: 249, category: "Chinese", image: "https://www.cookingclassy.com/wp-content/uploads/2020/04/fried-rice-20.jpg" },
+      { id: 16, name: "Chow Mein", price: 279, category: "Chinese", image: "https://tse3.mm.bing.net/th/id/OIP.Qn853zzopE09S_rzRrPBPQHaLH?pid=Api&P=0&h=220" },
+       { id: 17, name: "Shrimp Chow mein", price: 149, category: "Chinese", image: "https://media.gettyimages.com/id/185320132/photo/shrimp-chow-mein.jpg?s=612x612&w=0&k=20&c=ZCe0gtVMC1TUfNC9MnVai_3v4Buple6C8GkqhuFyMSc=" },
+        { id: 18, name: "Chinese noodles with vegetables and meat", price: 149, category: "Chinese", image: "https://media.gettyimages.com/id/1493412614/photo/chinese-noodles-with-vegetables-and-meat.jpg?s=612x612&w=0&k=20&c=okYOlBufl9sFtK81SjW9Zk3aIpUZu5Z2lJKvJVSilV8=" },
+          { id: 19, name: "Kung Pao Shrimp", price: 149, category: "Chinese", image: "https://tse3.mm.bing.net/th/id/OIP.If7cQk5pnKyoCOLGCcakEQHaHk?pid=Api&P=0&h=220" },
+            { id: 20, name: "Tofu Noodle Bowl with Vegetabl", price: 149, category: "Chinese", image: "https://media.gettyimages.com/id/182167795/photo/kung-pao-shrimp.jpg?s=612x612&w=0&k=20&c=rjeuWQBFBxBM7ZOhRtZX0kpstUT8_NHCpnD1oVQhQyI=" },
+              { id: 21, name: "Mongolian Shrimp with Udon Noodles", price: 149, category: "Chinese", image: "https://media.gettyimages.com/id/1397240189/photo/mongolian-shrimp-with-udon-noodles.jpg?s=612x612&w=0&k=20&c=jCbkpxsjrIQt1kJpONorK_WI7WW1df7FQnJxmq5RdOY=" },
+    ]
+  },
+  {
+    id: 4,
+    name: "Sweet Bites",
+    rating: 4.4,
+    deliveryTime: "20-30 mins",
+    category: "Desserts",
+    image: "https://tse1.mm.bing.net/th/id/OIP.duH2aDH-Frlmy-7ZeSl3CwHaHa?pid=Api&P=0&h=220",
+    items: [
+      { id: 23, name: "Chocolate Cake", price: 199, category: "Desserts", image: "https://images.unsplash.com/photo-1562440499-64d3e63c9f0b?w=200&h=200&fit=crop" },
+      { id: 24, name: "Cheesecake", price: 249, category: "Desserts", image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=200&h=200&fit=crop" },
+      { id: 25, name: "Ice Cream", price: 99, category: "Desserts", image: "https://images.unsplash.com/photo-1562440499-64d3e63c9f0b?w=200&h=200&fit=crop" },
+    { id: 26, name: "Air Fried Oreos", price: 99, category: "Desserts", image:"https://kitchendivas.com/wp-content/uploads/2024/04/AIR-FRIED-OREOS-ALL-THE-FLAVOR-WITH-LESS-OIL-1024x683.jpg" },
+     { id: 27, name: "Oreo S'mores", price: 99, category: "Desserts", image:"https://kitchendivas.com/wp-content/uploads/2024/04/Oreo-S_mores-1024x683.jpg" },
+      { id: 28, name: "White Chocolate Cake Popcorn", price: 99, category: "Desserts", image:"https://kitchendivas.com/wp-content/uploads/2024/05/White-Chocolate-Cake-Popcorn-1024x683.jpg" },
+       { id: 29, name: "Air Fryer Snickers", price: 99, category: "Desserts", image:"https://kitchendivas.com/wp-content/uploads/2024/04/AIR-FRYER-SNICKERS-1024x683.jpg" },
+        { id: 30, name: "Chocolate Covered Graham Crackers", price: 99, category: "Desserts", image:"https://kitchendivas.com/wp-content/uploads/2024/04/Chocolate-Covered-Graham-Crackers-1024x683.jpg" },
+    ]
+  },
+  {
+    id: 5,
+    name: "Indian Delights",
+    rating: 4.7,
+    deliveryTime: "40-50 mins",
+    category: "Indian",
+    image: "https://tse4.mm.bing.net/th/id/OIP.uxLcpgj9-gbPgy04YyA8owHaHa?pid=Api&P=0&h=220",
+    items: [
+      { id: 31, name: "Butter Chicken", price: 349, category: "Indian", image: "https://images.unsplash.com/photo-1416230206836-e2fca2ee6b1f?w=200&h=200&fit=crop" },
+      { id: 32, name: "Biryani", price: 299, category: "Indian", image: "https://images.unsplash.com/photo-1622483767023-768e12a7fa58?w=200&h=200&fit=crop" },
+      { id: 33, name: "Tandoori Chicken", price: 329, category: "Indian", image: "https://images.unsplash.com/photo-1579586144245-fd72b8b1d8f5?w=200&h=200&fit=crop" },
+       { id: 34, name: "Kerala-Style Vegetable Coconut Curry", price: 329, category: "Indian", image: "https://www.foodandwine.com/thmb/AgGK9rXWj-gOkcyGN2apnzti1D4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Kerala-Style-Cauliflower-Curry-FT-RECIPE1122-1c3f8fb64b164eaf9883cf883eba4799.jpg" },
+        { id: 35, name: "Tandoori Chicken", price: 329, category: "Indian", image: "https://www.foodandwine.com/thmb/sXbKqXCqSNFaOuww-kXawzwRj8A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Grilled-Tandori-Chicken-FT-RECIPE0323-de1e247b1dbb4c0e9cb11243141eaa50.jpg" },
+         { id: 36, name: "Tadka Dal with Roti", price: 329, category: "Indian", image: "https://www.foodandwine.com/thmb/tT8Xw1TESWEsqccmeDbpXLAnR90=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/tadka-dal-with-roti-FT-RECIPE0121-8543a4864b454dfab2f8cdc5b72c7c5f.jpg" },
+          { id: 37, name: "Aloo Matar (Indian Potato and Green Pea Curry)", price: 329, category: "Indian", image: "https://www.foodandwine.com/thmb/JDUQOd-Gn4mKFFyeaOyA_CdB-6U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Aloo-Matar-Potato-and-Green-Pea-Curry-FT-RECIPE0922-2000-7f1c153303bc4d96a93f1d49f9c7e5a4.jpg" },
+           { id: 38, name: "Kerala Meen Pollichathu (Roasted Fish in Banana Leaves)", price: 329, category: "Indian", image: "https://www.foodandwine.com/thmb/QG4BURZ20RJrDfB5LSfeyJYH3DU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Kerala-Meen-Pollichathu-Roasted-Fish-in-Banana-Leaf-FT-RECIPE0523-e10427c6e3184aa68b1e264fc2f9bd44.jpg" },
+            { id: 39, name: "Dosa", price: 329, category: "Indian", image: "https://www.foodandwine.com/thmb/FOxaU-wtHhFyhZ6AO65lGWP8ovQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Aloo-Masala-Potato-Masala-FT-MAG-RECIPE-0324-01fa47690cc04e21b81b6022e6235547.jpg" },
+             { id: 40, name: "Aloo Masala", price: 329, category: "Indian", image: "https://www.foodandwine.com/thmb/8GhVbs7chWVdd3j_j2GXaYNrdhA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Aloo-Masala-FT-MAG-RECIPE-0324-4b9081323dcd44c2a9a457b9b79b6f87.jpg" },
+    ]
+  },
+  {
+    id: 6,
+    name: "Veggie Express",
+    rating: 4.2,
+    deliveryTime: "25-35 mins",
+    category: "Healthy",
+    image: "https://tse4.mm.bing.net/th/id/OIP.IXxxDun9IG1ziT91H0q1PQHaFj?pid=Api&P=0&h=220",
+    items: [
+      { id: 41, name: "Garden Salad", price: 179, category: "Healthy", image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&h=200&fit=crop" },
+      { id: 42, name: "Veggie Pizza", price: 249, category: "Healthy", image: "https://images.unsplash.com/photo-1546833999-10f626a4b9a7?w=200&h=200&fit=crop" },
+      { id: 43, name: "Grilled Veggies", price: 199, category: "Healthy", image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&h=200&fit=crop" },
+       { id: 44, name: "Spring Roll", price: 99, category: "Desserts", image: "https://s3-media0.fl.yelpcdn.com/bphoto/tS650ii6WSCWoUi9cYnGUQ/60s.jpg" },
+             { id: 45, name: "Hot and Sour Soup", price: 99, category: "Desserts", image: "https://s3-media0.fl.yelpcdn.com/bphoto/9StFWbyx-Tp0L6ptP18AQw/60s.jpg" },
+                    { id: 46, name: "Veggie Beef with Broccoli", price: 99, category: "Desserts", image: "https://s3-media0.fl.yelpcdn.com/bphoto/tS650ii6WSCWoUi9cYnGUQ/60s.jpg" },
+                           { id: 47, name: "chees salad", price: 99, category: "Desserts", image: "https://b.zmtcdn.com/data/pictures/chains/7/21303887/97acc5960c95857db03c9cfbdfada282.jpg" },
+                                
+    ]
+  },
+  {
+     id: 7,
+    name: "Dosa",
+    rating: 4.2,
+    deliveryTime: "25-35 mins",
+    category: "Healthy",
+    image: "https://tse2.mm.bing.net/th/id/OIP.I0sEdZ6xI1jV85KcRE-NVAHaJQ?pid=Api&P=0&h=220",
+    items: [
+       { id: 48, name: "Pesarattu Recipe – Andhra style Pesarattu | Green Gram Dosa", price: 99, category: "Desserts", image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2022/07/Pesarattu-recipe-2.jpg?fit=500%2C535&ssl=1" },
+       { id: 49, name: "Mudakathan Keerai dosai – Instant Balloon Vine leaves dosa Recipe", price: 99, category: "Desserts", image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2022/04/Mudakathan-dosai-2.jpg?fit=500%2C641&ssl=1" },
+          { id: 50, name: "Vazhaithandu dosai – How to make Banana stem dosa / Plantain stem dosa", price: 99, category: "Desserts", image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2021/01/Vazhaithandu-dosai.jpg?fit=500%2C641&ssl=1" },
+          { id: 51, name: "Set Dosa Without Curd–Sponge Dosa Recipe", price: 99, category: "Desserts", image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2020/12/setdosarecipe.jpg?fit=500%2C564&ssl=1" }, 
+        { id: 52, name: "Palak Dosa / Spinach Dosa / Keerai Dosai Recipe", price: 99, category: "Desserts", image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2020/10/Pirandai-dosai-recipe.jpg?fit=500%2C621&ssl=1" }, 
+       
+         { id: 53,name: "Kara Dosai Recipe –Toor Dal Dosa Recipe", price: 99, category: "Desserts", image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2019/03/Kara-dosai.jpg?fit=500%2C640&ssl=1" },
+           { id: 54, name: "Soft Dosa Recipe – How To Make Soft Dosa For Lunch Box And Travel", price: 99, category: "Desserts", image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2018/11/Soft-dosa-recipe.jpg?fit=500%2C640&ssl=1" },
+             { id: 55, name: "Instant Dosa Recipe With Leftover Rice – Cooked Rice Dosa Recipe – Pazhaya Sadam Dosai", price: 99, category: "Desserts", image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2018/09/instant-dosa-with-leftover-rice.jpg?fit=500%2C640&ssl=1" },
+               { id: 56, name: "Mint Coriander leaves Dosa | Pudina Kothamalli Dosai Recipe | Green Dosa", price: 99, category: "Desserts", image: "https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2018/07/Green-dosa.jpg?fit=500%2C641&ssl=1" },
+    ]
+  },
+  {
+     id: 8 ,
+    name: "Indian food",
+    rating: 4.2,
+    deliveryTime: "25-35 mins",
+    category: "Healthy",
+    image: "https://tse3.mm.bing.net/th/id/OIP.FzD7gDk_PMKbm5L0ewPM1QHaFj?pid=Api&P=0&h=220",
+    items: [
+       { id: 57, name: "Achari baingan", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Baigan_Ka_Salan.JPG/250px-Baigan_Ka_Salan.JPG"},
+        { id: 58, name: "Aloo gobi", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Aloo_gobi.jpg/250px-Aloo_gobi.jpg"},
+         { id:59, name: "", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Aloo_Tikki_served_with_chutneys.jpg/250px-Aloo_Tikki_served_with_chutneys.jpg"},
+         { id: 60, name: "Aloo tikki", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Amritsari_Kulcha.jpg/250px-Amritsari_Kulcha.jpg"},
+          { id: 61, name: "Aloo kulcha", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Aloo_Methi_%28Aaloo_Methi%29.JPG/250px-Aloo_Methi_%28Aaloo_Methi%29.JPG"},
+           { id: 62, name: "Aloo methi", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Spicy_alloo_with_tadka_mirchi.jpg/250px-Spicy_alloo_with_tadka_mirchi.jpg"},
+            { id: 63, name: "Bhindi masala", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Fresh_Bhindi_Masala.jpg/250px-Fresh_Bhindi_Masala.jpg"},
+             { id: 64, name: "Chapati", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chapatiroll.jpg/250px-Chapatiroll.jpg"},
+      
+    ]
+  },
+  {
+     id: 9 ,
+    name: "italian",
+    rating: 4.2,
+    deliveryTime: "25-35 mins",
+    category: "Healthy",
+    image: "https://up.yimg.com/ib/th/id/OIP.CepWjEFzzLoBGlrU_s6W9wHaEK?pid=Api&rs=1&c=1&qlt=95&w=169&h=95",
+    items: [
+       { id: 65, name: "Chicken Vesuvio", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/f4zwIbscbTasAXzNT3w_dtzGkMc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chicken-vesuvio-FT-RECIPE0325-47bc53557f774d1fb722655e963ea088.jpg"},
+       { id: 66, name: "Chicken Scarpariello", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/fPWGVzDqrWkN2iaekOQc3jOVnhc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Chicken-Scarpariello-FT-RECIPE1023-c6c5d4c72b1f4c66bd8276106447c988.jpg"},
+       { id: 67, name: "Pasta ’Ncasciata (Sicilian Baked Pasta)", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/Hvfb_3yeVuIas4rtvBX8fLusPGg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Pasta-Ncasciata-Sicilian-Baked-Pasta-FT-RECIPE0223-bd976e82ff09421fade1e1558761bb67.jpg"},
+       { id: 68, name: "Penne All’Arrabbiata", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/A0UnXmj17M4DrNDQkJIFbRsZ6zE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Penne-All-Arrabbiata-FT-MAG-RECIPE-0225-8acfad3cf69141ce951e95c68e4df9de.jpg"},
+       { id: 69, name: "Porchetta", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/XuScjet66l3Uz5iEpnodPb8cD9A=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Porchetta-FT-RECIPE-0324-f40395c0c4324417a37dbe708962310a.jpg"},
+       { id: 70, name: "Grandma's Lasagna", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/AbrvcDC9w5uCA2QmN7SLXebUv5g=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/grandmas-lasagna-hero-02-FT-RECIPE1222-e0117c061ce74af8b2dfae19d08c91a5.jpg"},
+       { id: 71, name: "Braciole", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/dX7pNh_WX83ESqb9VJuvkBwVKwM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Braciole-FT-RECIPE1122-66acf49cef0e4390bec780945709e7f3.jpg"},
+       { id: 72, name: "Skirt Steak Saltimbocca", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/25IlpZnusxVh1-723Ox0BE2J9Es=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Skirt-Steak-Saltimboca-FT-RECIPE0523-fe9c59b7858e47d2862e3231efd499e1.jpg"},
+       { id: 73, name: "Gnocchi Asparagi e Pancetta (Tuscan Gnocchi with Asparagus and Pancetta)", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/yMbLYh5mhNiqRFHzXcAJf92kxm4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Gnocchi-with-Asparagus-and-Pancetta-FT-MAG-RECIPE-0424-0c702b286eae4de289f90ea127a85291.jpg"},
+       { id: 74, name: "Zucchini Risotto with Shrimp", price: 199, category: "indian food", image: "https://www.foodandwine.com/thmb/g7xCFVOWIQGoUIHDh8TnU9WzU4Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Risotto-with-Zucchini-and-Shrimp-FT-MAG-RECIPE-0424-ec5200e1f7844bdc988de2d8434f672b.jpg"},
+    ]
+  },
+   {
+     id: 10 ,
+    name: "maxican",
+    rating: 4.2,
+    deliveryTime: "25-35 mins",
+    category: "Healthy",
+    image: "https://tse4.mm.bing.net/th/id/OIP.93razGxBk1VgXPQNJ-UNcQHaEK?pid=Api&P=0&h=220",
+    items: [
+       { id: 75, name: "Chilaquiles", price: 199, category: "maxican food", image: ""},
+       { id: 76, name: "Ranch Eggs", price: 199, category: "  maxicanfood", image: ""},
+       { id: 77, name: "Shredded Dried Beef or Pork", price: 199, category: "maxican food", image: ""},
+       { id: 78, name: "Plow Disc BBQ", price: 199, category: "maxican food", image: ""},
+       { id: 79, name: "Tacos", price: 199, category: "maxican food", image: ""},
+       { id: 80, name: " Burritos", price: 199, category: "maxican food", image: ""},
+       { id: 81, name: "Chicken or Wild Turkey Stew", price: 199, category: "maxican indian food", image: ""},
+    ]
+  },
+   {
+     id: 11,
+    name: "chicken",
+    rating: 4.2,
+    deliveryTime: "25-35 mins",
+    category: "Healthy",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spatchcocking.jpg/960px-Spatchcocking.jpg",
+    items: [
+       { id: 82, name: "chicken and dumplings", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/ChickenDumplings.jpg/500px-ChickenDumplings.jpg"},
+       { id: 83, name: "Beer can chicken", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Robb%27s_beer_can_chicken%2C_Chicago_%28cropped%29.jpg/500px-Robb%27s_beer_can_chicken%2C_Chicago_%28cropped%29.jpg"},
+       { id: 84, name: "Huli-huli chicken", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Huli-Huli_chicken.jpg/330px-Huli-Huli_chicken.jpg"},
+       { id: 85, name: "Shish taouk, a traditional Middle Eastern shish kebab", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Shish_taouk.jpg/500px-Shish_taouk.jpg"},
+       { id: 86, name: "Beggar's Chicken", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Beggar%27s_Chicken_by_Hangzhou%27s_%22Mountain_Beyond_Mountain%22_Restaurant.jpg/500px-Beggar%27s_Chicken_by_Hangzhou%27s_%22Mountain_Beyond_Mountain%22_Restaurant.jpg"},
+       { id: 87, name: "Chicken satay", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kipsate_met_friet.jpg/960px-Kipsate_met_friet.jpg"},
+       { id: 88, name: "Orange chicken", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flickr_preppybyday_4786746354--Orange_chicken.jpg/500px-Flickr_preppybyday_4786746354--Orange_chicken.jpg"},
+        { id: 89, name: "Chicken satay", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kipsate_met_friet.jpg/960px-Kipsate_met_friet.jpg"},
+       { id: 90, name: "Orange chicken", price: 199, category: "indian food", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Flickr_preppybyday_4786746354--Orange_chicken.jpg/500px-Flickr_preppybyday_4786746354--Orange_chicken.jpg"},
+    
+      ]
+  },
+   {
+     id: 12 ,
+    name: "fish",
+    rating: 4.2,
+    deliveryTime: "25-35 mins",
+    category: "Healthy",
+    image: "https://up.yimg.com/ib/th/id/OIP.CepWjEFzzLoBGlrU_s6W9wHaEK?pid=Api&rs=1&c=1&qlt=95&w=169&h=95",
+    items: [
+       { id: 91, name: "Karimeen pollichathu", price: 199, category: "indian food", image: "https://cdn.tasteatlas.com/images/dishes/faa8c30ad2fe4e6c8ab4746476271de8.jpg?w=1476&h=830"},
+       { id: 92, name: "Nethili 65", price: 199, category: "indian food", image: "https://cdn.tasteatlas.com/images/dishes/08c64cbaaadb4c5080daec9b67666629.jpg?w=1476&h=830"},
+       { id: 93, name: "Ambot tik (Goan fish curry)", price: 199, category: "indian food", image: "https://cdn.tasteatlas.com/images/dishes/ea2f6ca330d145d4b8ed701afcc8388b.jpg?w=1476&h=830"},
+       { id: 94, name: "Shorshe ilish", price: 199, category: "indian food", image: "https://cdn.tasteatlas.com/images/dishes/4e8aa644e30b42fa81d2cfc63cef1e0a.jpg?w=1476&h=830"},
+       { id: 95, name: "Machha Jhola", price: 199, category: "indian food", image: "https://cdn.tasteatlas.com/images/dishes/ea41a91386e645e889a74867f059eca5.jpg?w=1476&h=830"},
+       { id: 96, name: "Amritsari machhli ", price: 199, category: "indian food", image: "https://cdn.tasteatlas.com/images/dishes/edef2b62683a4028bc2427f68a99bff8.jpg?w=1476&h=830"},
+       { id: 97, name: "Malabar meen curry", price: 199, category: "indian food", image: "https://cdn.tasteatlas.com/images/dishes/6f0d536776c044659bed1a583ace17bb.jpg?w=1476&h=830"},
+    ]
+  }
+];

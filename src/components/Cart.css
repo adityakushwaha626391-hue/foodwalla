@@ -1,0 +1,84 @@
+.cart-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cart-items {
+  margin: 20px 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-total {
+  text-align: right;
+  margin: 20px 0;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.payment-methods {
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.payment-methods label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.qr-payment {
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.qr-image {
+  width: 250px;
+  height: 250px;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.qr-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f97316;
+  margin: 10px 0;
+}
+
+.qr-instruction {
+  color: #666;
+  margin: 10px 0;
+}
+
+.qr-confirm-btn {
+  width: 100%;
+  padding: 15px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.qr-confirm-btn:hover {
+  background: #059669;
+}
